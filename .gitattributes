@@ -1,2 +1,1 @@
-*.png filter=lfs diff=lfs merge=lfs -text
-*.jfif filter=lfs diff=lfs merge=lfs -text
+# 移除LFS配置，直接使用Git存储图片文件
