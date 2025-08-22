@@ -1,0 +1,499 @@
+{
+  "summary": {
+    "imagesProcessed": 54,
+    "bytesBefore": 45842089,
+    "bytesAfter": 21300612,
+    "bytesSaved": 24541477,
+    "dryRun": false
+  },
+  "images": [
+    {
+      "file": "dc873de6399b8b16c4f44611d20369b3.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "Image (10)_compressed.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "Image (11)_compressed.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "Image (12)_compressed.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "Image (13)_compressed.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "Image (14)_compressed.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "图片1.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "图片2.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "图片3.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "图片4.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "图片5.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "图片6_compressed.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "图片7_compressed.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "图片8_compressed.jpg",
+      "before": 0,
+      "after": 0,
+      "saved": 0,
+      "changed": false,
+      "skipped": true,
+      "reason": "sharp-error: Input buffer contains unsupported image format"
+    },
+    {
+      "file": "image\\图片1.jpg",
+      "before": 302926,
+      "after": 115296,
+      "saved": 187630,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image\\图片2.jpg",
+      "before": 622805,
+      "after": 276026,
+      "saved": 346779,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image\\图片3.jpg",
+      "before": 359250,
+      "after": 156139,
+      "saved": 203111,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image\\图片4.jpg",
+      "before": 377293,
+      "after": 174224,
+      "saved": 203069,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image\\图片5.jpg",
+      "before": 378370,
+      "after": 168901,
+      "saved": 209469,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image\\图片6.jpg",
+      "before": 947251,
+      "after": 413205,
+      "saved": 534046,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image\\图片7.png",
+      "before": 12858220,
+      "after": 4638174,
+      "saved": 8220046,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image\\图片8.jpg",
+      "before": 744281,
+      "after": 305966,
+      "saved": 438315,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_BG\\dc873de6399b8b16c4f44611d20369b3.jpg",
+      "before": 811048,
+      "after": 232947,
+      "saved": 578101,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\dc873de6399b8b16c4f44611d20369b3.jpg",
+      "before": 424217,
+      "after": 233956,
+      "saved": 190261,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (10).jpg",
+      "before": 749617,
+      "after": 749617,
+      "saved": 0,
+      "changed": false,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (10)_compressed.jpg",
+      "before": 283896,
+      "after": 229144,
+      "saved": 54752,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (11).jpg",
+      "before": 1011774,
+      "after": 1011774,
+      "saved": 0,
+      "changed": false,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (11)_compressed.jpg",
+      "before": 314721,
+      "after": 252945,
+      "saved": 61776,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (12).jpg",
+      "before": 891456,
+      "after": 891456,
+      "saved": 0,
+      "changed": false,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (12)_compressed.jpg",
+      "before": 212912,
+      "after": 171352,
+      "saved": 41560,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (13).jpg",
+      "before": 989852,
+      "after": 989852,
+      "saved": 0,
+      "changed": false,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (13)_compressed.jpg",
+      "before": 163670,
+      "after": 131105,
+      "saved": 32565,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (14).jpg",
+      "before": 960935,
+      "after": 960935,
+      "saved": 0,
+      "changed": false,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\Image (14)_compressed.jpg",
+      "before": 151969,
+      "after": 123375,
+      "saved": 28594,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片1.jpg",
+      "before": 260308,
+      "after": 118685,
+      "saved": 141623,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片2.jpg",
+      "before": 537849,
+      "after": 281023,
+      "saved": 256826,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片3.jpg",
+      "before": 311103,
+      "after": 159004,
+      "saved": 152099,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片4.jpg",
+      "before": 327335,
+      "after": 177821,
+      "saved": 149514,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片5.jpg",
+      "before": 327495,
+      "after": 171885,
+      "saved": 155610,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片6.jpg",
+      "before": 826792,
+      "after": 428062,
+      "saved": 398730,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片6_compressed.jpg",
+      "before": 389842,
+      "after": 222385,
+      "saved": 167457,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片7.jpg",
+      "before": 838014,
+      "after": 434755,
+      "saved": 403259,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片7_compressed.jpg",
+      "before": 164927,
+      "after": 137950,
+      "saved": 26977,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片8.jpg",
+      "before": 649982,
+      "after": 320032,
+      "saved": 329950,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "image_compressed\\图片8_compressed.jpg",
+      "before": 250535,
+      "after": 141743,
+      "saved": 108792,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image_BG\\dc873de6399b8b16c4f44611d20369b3.jpg",
+      "before": 811048,
+      "after": 232947,
+      "saved": 578101,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image\\图片1.jpg",
+      "before": 302926,
+      "after": 115296,
+      "saved": 187630,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image\\图片2.jpg",
+      "before": 622805,
+      "after": 276026,
+      "saved": 346779,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image\\图片3.jpg",
+      "before": 359250,
+      "after": 156139,
+      "saved": 203111,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image\\图片4.jpg",
+      "before": 377293,
+      "after": 174224,
+      "saved": 203069,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image\\图片5.jpg",
+      "before": 378370,
+      "after": 168901,
+      "saved": 209469,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image\\图片6.jpg",
+      "before": 947251,
+      "after": 413205,
+      "saved": 534046,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image\\图片7.png",
+      "before": 12858220,
+      "after": 4638174,
+      "saved": 8220046,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    },
+    {
+      "file": "WAIC_Site\\image\\图片8.jpg",
+      "before": 744281,
+      "after": 305966,
+      "saved": 438315,
+      "changed": true,
+      "skipped": false,
+      "reason": null
+    }
+  ],
+  "htmlBrokenRefs": [],
+  "htmlAbsoluteRoot": []
+}
