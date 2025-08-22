@@ -110,10 +110,10 @@
 ## 🚀 快速开始
 
 ### 🌐 在线访问
-直接点击链接即可访问：**[WAIC 2025 展会总结](https://jianan-huang0609.github.io/WAIC_Site/)**
+直接点击链接即可访问：**[WAIC 2025 展会总结](index.html)**
 
 ### 🔍 图片加载测试
-如果遇到图片显示问题，请访问：**[图片加载测试页面](https://jianan-huang0609.github.io/WAIC_Site/test-images.html)**
+如果遇到图片显示问题，请访问：**[图片加载测试页面](test-images.html)**
 
 ### 🔧 技术说明
 - **纯静态网页**：无需服务器环境
@@ -123,15 +123,15 @@
 
 ### 📁 项目结构
 ```
-WAIC 网页/
-├── WAIC2025.html          # 主页面文件
+WAIC_Site/
+├── index.html             # 主页面文件
 ├── README.md              # 项目说明文档
-├── image/                 # 展会图片资源
+├── image_compressed/      # 压缩后的图片资源
 │   ├── 图片1.jpg
 │   ├── 图片2.jpg
 │   └── ...
+├── image/                 # 原始图片资源
 └── image_BG/              # 背景图片资源
-    └── dc873de6399b8b16c4f44611d20369b3.jpg
 ```
 
 ---
