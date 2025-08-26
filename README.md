@@ -114,7 +114,7 @@
 ## 🚀 快速开始
 
 ### 🌐 在线访问
-直接点击链接即可访问：**[WAIC 2025 展会总结](index.html)**
+直接点击链接即可访问：**[WAIC 2025 展会总结]([index.html](https://jianan-huang0609.github.io/WAIC_Site/))**
 
 ### 🔍 图片加载测试
 如果遇到图片显示问题，请访问：**[图片加载测试页面](test-images.html)**
