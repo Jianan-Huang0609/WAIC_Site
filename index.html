@@ -137,24 +137,30 @@
         
         /* CardBody 样式 */
         .flexi-card-body {
-            width: 100%;
-            height: 300px;
+            width: 90%;
+            height: 280px;
             transform-style: preserve-3d;
             transition: all 200ms ease-linear;
             position: relative;
+            margin: 0 auto;
             
             /* flexi-flip-ui 的卡片背景样式 */
             background: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 13% 96%));
-            border-radius: 24px;
+            border-radius: 20px;
             border: 1px solid hsl(214.3 31.8% 91.4%);
-            box-shadow: 0 25px 50px -12px hsl(262 83% 58% / 0.25);
-            padding: 24px;
+            box-shadow: 0 20px 40px -12px hsl(262 83% 58% / 0.2);
+            padding: 20px;
             
-            transition: box-shadow 300ms ease;
+            transition: all 300ms ease;
+            transform: scale(0.95);
         }
         
-        .flexi-card-body:hover {
-            box-shadow: 0 0 40px hsl(272 100% 75% / 0.3);
+        .flexi-card-container:hover .flexi-card-body {
+            box-shadow: 0 35px 70px hsl(272 100% 75% / 0.4);
+            transform: scale(1);
+            width: 95%;
+            height: 300px;
+            padding: 24px;
         }
         
         /* CardItem 样式 */
@@ -173,20 +179,22 @@
         /* 发光效果增强 */
         .flexi-glow-effect {
             position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: linear-gradient(135deg, hsl(272 100% 75% / 0.3), hsl(282 100% 85% / 0.3));
-            border-radius: 26px;
+            top: -4px;
+            left: -4px;
+            right: -4px;
+            bottom: -4px;
+            background: linear-gradient(135deg, hsl(272 100% 75% / 0.4), hsl(282 100% 85% / 0.4));
+            border-radius: 28px;
             opacity: 0;
-            transition: opacity 300ms ease;
+            transition: all 300ms ease;
             z-index: -1;
             pointer-events: none;
+            transform: scale(0.9);
         }
         
         .flexi-card-container:hover .flexi-glow-effect {
             opacity: 1;
+            transform: scale(1.05);
         }
         
         /* 浮动动画保持 */
@@ -411,8 +419,8 @@
                         
                         <!-- 主要图标 - CardItem with translateZ="100" -->
                         <div class="flexi-card-item w-full mb-4" data-translate-z="100">
-                            <div class="w-20 h-20 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto">
-                                <i class="fas fa-server text-white text-3xl"></i>
+                            <div class="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto">
+                                <i class="fas fa-server text-white text-xl"></i>
                             </div>
                         </div>
                         
@@ -456,8 +464,8 @@
                         </div>
                         
                         <div class="flexi-card-item w-full mb-4" data-translate-z="100">
-                            <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto">
-                                <i class="fas fa-brain text-white text-3xl"></i>
+                            <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mx-auto">
+                                <i class="fas fa-brain text-white text-xl"></i>
                             </div>
                         </div>
                         
@@ -499,8 +507,8 @@
                         </div>
                         
                         <div class="flexi-card-item w-full mb-4" data-translate-z="100">
-                            <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto">
-                                <i class="fas fa-rocket text-white text-3xl"></i>
+                            <div class="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mx-auto">
+                                <i class="fas fa-rocket text-white text-xl"></i>
                             </div>
                         </div>
                         
@@ -542,8 +550,8 @@
                         </div>
                         
                         <div class="flexi-card-item w-full mb-4" data-translate-z="100">
-                            <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto">
-                                <i class="fas fa-user-md text-white text-3xl"></i>
+                            <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mx-auto">
+                                <i class="fas fa-user-md text-white text-xl"></i>
                             </div>
                         </div>
                         
@@ -1226,8 +1234,9 @@
                     const x = (e.clientX - left - width / 2) / 25;
                     const y = (e.clientY - top - height / 2) / 25;
                     
-                    // 应用 CardContainer 的变换
-                    cardBody.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
+                    // 应用 CardContainer 的变换，保持悬停时的缩放
+                    const currentScale = cardBody.style.transform.includes('scale(1)') ? 'scale(1)' : 'scale(0.95)';
+                    cardBody.style.transform = `${currentScale} rotateY(${x}deg) rotateX(${y}deg)`;
                 });
                 
                 // 鼠标进入
@@ -1251,9 +1260,9 @@
                 container.addEventListener('mouseleave', () => {
                     isMouseEntered = false;
                     
-                    // 重置 CardBody
+                    // 重置 CardBody，回到初始缩放状态
                     if (cardBody) {
-                        cardBody.style.transform = `rotateY(0deg) rotateX(0deg)`;
+                        cardBody.style.transform = `scale(0.95) rotateY(0deg) rotateX(0deg)`;
                     }
                     
                     // 重置 CardItems
